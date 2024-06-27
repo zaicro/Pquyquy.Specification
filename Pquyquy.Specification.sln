@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{35D25268-340A-4412-84C2-8C8436B744E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{90920B2A-CB3B-4BB7-A690-90AB86979633}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F1992929-7002-4080-A2DC-DE8C92362175}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		CHANGELOG.md = CHANGELOG.md
+		Nuget.config = Nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pquyquy.Specification", "src\Pquyquy.Specification\Pquyquy.Specification.csproj", "{B1FB3A04-3A34-4080-84D9-431AE723FE14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pquyquy.Specification.EntityFrameworkCore", "src\Pquyquy.Specification.EntityFrameworkCore\Pquyquy.Specification.EntityFrameworkCore.csproj", "{0571D042-EED7-4B6E-86F9-CCAF34554423}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pquyquy.Specification.Test", "test\Pquyquy.Specification.Test\Pquyquy.Specification.Test.csproj", "{72F4AAAD-8855-4A47-8D8B-72B06CDE95BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pquyquy.Specification.EntityFrameworkCore.Test", "test\Pquyquy.Specification.EntityFrameworkCore.Test\Pquyquy.Specification.EntityFrameworkCore.Test.csproj", "{044152B5-5DE9-45A8-87C0-03DF19AE24A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1FB3A04-3A34-4080-84D9-431AE723FE14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1FB3A04-3A34-4080-84D9-431AE723FE14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1FB3A04-3A34-4080-84D9-431AE723FE14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1FB3A04-3A34-4080-84D9-431AE723FE14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0571D042-EED7-4B6E-86F9-CCAF34554423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0571D042-EED7-4B6E-86F9-CCAF34554423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0571D042-EED7-4B6E-86F9-CCAF34554423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0571D042-EED7-4B6E-86F9-CCAF34554423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72F4AAAD-8855-4A47-8D8B-72B06CDE95BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F4AAAD-8855-4A47-8D8B-72B06CDE95BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F4AAAD-8855-4A47-8D8B-72B06CDE95BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F4AAAD-8855-4A47-8D8B-72B06CDE95BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{044152B5-5DE9-45A8-87C0-03DF19AE24A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{044152B5-5DE9-45A8-87C0-03DF19AE24A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{044152B5-5DE9-45A8-87C0-03DF19AE24A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{044152B5-5DE9-45A8-87C0-03DF19AE24A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1FB3A04-3A34-4080-84D9-431AE723FE14} = {35D25268-340A-4412-84C2-8C8436B744E2}
+		{0571D042-EED7-4B6E-86F9-CCAF34554423} = {35D25268-340A-4412-84C2-8C8436B744E2}
+		{72F4AAAD-8855-4A47-8D8B-72B06CDE95BA} = {90920B2A-CB3B-4BB7-A690-90AB86979633}
+		{044152B5-5DE9-45A8-87C0-03DF19AE24A1} = {90920B2A-CB3B-4BB7-A690-90AB86979633}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B20288F-B070-4736-BBD8-44E329D67909}
+	EndGlobalSection
+EndGlobal

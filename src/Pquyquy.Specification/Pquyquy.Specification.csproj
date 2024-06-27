@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<OutputType>Library</OutputType>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<AssemblyName>Pquyquy.Specification</AssemblyName>
+		<AssemblyTitle>Pquyquy.Specification Library</AssemblyTitle>
+		<Product>Pquyquy.Specification Library</Product>
+		<RootNamespace>Pquyquy.Specification</RootNamespace>
+		<Authors>Andres Martinez</Authors>
+		<Copyright>Copyright © 2024</Copyright>
+		<Description>Library containing specifications for the application layer.</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+
+</Project>
